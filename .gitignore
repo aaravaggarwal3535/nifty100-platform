@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Configuration and Database
+.env
+data/nifty100.db
+
+# Generated Artifacts / Reports
+output/
+reports/tearsheets/
+reports/sector/
+reports/portfolio/
+reports/radar_charts/
+validation_failures.csv
+load_audit.csv
+ratio_edge_cases.log
+
+# IDEs and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
